@@ -3,6 +3,7 @@ import AppSidebar from "@/components/AppSidebar";
 import Chatbot from "@/components/Chatbot";
 import AcademicCalendar from "@/components/AcademicCalendar";
 import CounselingList from "@/components/CounselingList";
+import PlatformLinks from "@/components/PlatformLinks";
 
 const AppLayout = () => (
   <div className="flex min-h-screen">
@@ -13,6 +14,7 @@ const AppLayout = () => (
     <Chatbot />
     <AcademicCalendar />
     <CounselingList />
+    <PlatformLinks />
   </div>
 );
 
