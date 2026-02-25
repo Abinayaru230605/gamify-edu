@@ -76,7 +76,7 @@ export const courses: Course[] = [
   { id: "dsa", code: "CS201", title: "Data Structures & Algorithms", credits: 4, semester: 3, progress: 72, totalVideos: 45, xpReward: 50, topics: ["Arrays", "Linked Lists", "Trees", "Graphs", "Dynamic Programming", "Sorting"], icon: "🧮" },
   { id: "os", code: "CS301", title: "Signals and Systems", credits: 4, semester: 5, progress: 45, totalVideos: 38, xpReward: 50, topics: ["Continuous Signals", "Discrete Signals", "Fourier Transform", "Convolution", "System Analysis"], icon: "📡" },
   { id: "dbms", code: "ME302", title: "Control Engineering", credits: 3, semester: 4, progress: 88, totalVideos: 32, xpReward: 40, topics: ["System Response", "Transfer Functions", "Stability Analysis", "Root Locus", "Bode Plots"], icon: "⚙️" },
-  { id: "cn", code: "CS303", title: "Computer Networks", credits: 3, semester: 5, progress: 30, totalVideos: 28, xpReward: 40, topics: ["OSI Model", "TCP/IP", "Routing", "Network Security", "HTTP"], icon: "🌐" },
+  { id: "cn", code: "CS304", title: "Miniproject Suggestions", credits: 3, semester: 5, progress: 30, totalVideos: 28, xpReward: 40, topics: ["Project Ideas", "Implementation Guide", "Best Practices", "Documentation", "Presentation"], icon: "💡" },
   { id: "ml", code: "CS401", title: "Machine Learning", credits: 4, semester: 7, progress: 15, totalVideos: 40, xpReward: 60, topics: ["Linear Regression", "Neural Networks", "SVM", "Decision Trees", "Clustering"], icon: "🤖" },
   { id: "math", code: "MA201", title: "Engineering Mathematics III", credits: 4, semester: 3, progress: 60, totalVideos: 35, xpReward: 45, topics: ["Laplace Transform", "Fourier Series", "Complex Analysis", "Probability"], icon: "📐" },
 ];
@@ -91,7 +91,7 @@ export const videos: Video[] = [
   { id: "v7", title: "Introduction to Control Systems", youtubeId: "-1G2UcsBudU", topic: "System Response", courseId: "dbms", duration: "20:00", views: 18000, likes: 1400, xp: 25 },
   { id: "v8", title: "Transfer Functions and System Dynamics", youtubeId: "-1G2UcsBudU", topic: "Transfer Functions", courseId: "dbms", duration: "24:30", views: 9500, likes: 700, xp: 35 },
   { id: "v9", title: "Introduction to Signals and Systems", youtubeId: "0pJnSVKQqsE", topic: "Continuous Signals", courseId: "os", duration: "27:15", views: 7800, likes: 560, xp: 35 },
-  { id: "v10", title: "OSI Model Explained", youtubeId: "vv4y_uOneC0", topic: "OSI Model", courseId: "cn", duration: "19:45", views: 22000, likes: 1900, xp: 25 },
+  { id: "v10", title: "Miniproject Ideas and Suggestions", youtubeId: "89Qy6P3NtC8", topic: "Project Ideas", courseId: "cn", duration: "19:45", views: 22000, likes: 1900, xp: 25 },
 ];
 
 export const quizQuestions: Record<string, QuizQuestion[]> = {
