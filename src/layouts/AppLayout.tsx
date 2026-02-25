@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import AppSidebar from "@/components/AppSidebar";
 import Chatbot from "@/components/Chatbot";
 import AcademicCalendar from "@/components/AcademicCalendar";
+import CounselingList from "@/components/CounselingList";
 
 const AppLayout = () => (
   <div className="flex min-h-screen">
@@ -10,7 +11,8 @@ const AppLayout = () => (
       <Outlet />
     </main>
     <Chatbot />
-   <AcademicCalendar />
+    <AcademicCalendar />
+    <CounselingList />
   </div>
 );
 
