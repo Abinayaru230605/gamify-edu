@@ -59,8 +59,8 @@ export interface LeaderboardEntry {
 }
 
 export const userProfile = {
-  name: "Arjun Sharma",
-  branch: "CSE",
+  name: "Abinaya",
+  branch: "ECE",
   semester: 4,
   level: 12,
   xp: 2450,
@@ -134,7 +134,7 @@ export const leaderboard: LeaderboardEntry[] = [
   { rank: 2, name: "Rahul Kumar", avatar: "👨‍🔬", xp: 3800, level: 16, streak: 12 },
   { rank: 3, name: "Sneha Gupta", avatar: "👩‍🎓", xp: 3500, level: 15, streak: 10 },
   { rank: 4, name: "Amit Verma", avatar: "🧑‍💻", xp: 2800, level: 13, streak: 8 },
-  { rank: 5, name: "Arjun Sharma", avatar: "🧑‍💻", xp: 2450, level: 12, streak: 7 },
+  { rank: 5, name: "Abinaya", avatar: "🧑‍💻", xp: 2450, level: 12, streak: 7 },
   { rank: 6, name: "Kavya Nair", avatar: "👩‍🔧", xp: 2200, level: 11, streak: 5 },
   { rank: 7, name: "Vikram Singh", avatar: "👨‍💼", xp: 1900, level: 10, streak: 4 },
   { rank: 8, name: "Anjali Desai", avatar: "👩‍🏫", xp: 1750, level: 9, streak: 6 },

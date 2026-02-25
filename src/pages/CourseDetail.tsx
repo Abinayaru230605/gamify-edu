@@ -30,7 +30,7 @@ const CourseDetail = () => {
     if (!commentText.trim()) return;
     setComments((prev) => ({
       ...prev,
-      [videoId]: [...(prev[videoId] || []), { text: commentText, user: "Arjun Sharma", time: "Just now" }],
+      [videoId]: [...(prev[videoId] || []), { text: commentText, user: "Abinaya", time: "Just now" }],
     }));
     setCommentText("");
   };
